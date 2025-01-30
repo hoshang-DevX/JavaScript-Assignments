@@ -1,0 +1,28 @@
+[
+    {
+        "id" : 1,
+        "name" : "Weeknd_1",
+        "url" : "Assign 3 JS/Q1/images/ The weeknd/after hours.jpg"
+    },
+
+    {
+        "id" : 2,
+        "name" : "Weeknd_2",
+        "url" : "Assign 3 JS/Q1/images/ The weeknd/dawn FM .jpg"
+    },
+    {
+        "id" : 3,
+        "name" : "Weeknd_3",
+        "url" : "Assign 3 JS/Q1/images/ The weeknd/dear melancholy.jpg"
+    },
+    {
+        "id" : 4,
+        "name" : "Weeknd_4",
+        "url" : "Assign 3 JS/Q1/images/ The weeknd/HOT PEOPLE.pdf"
+    },
+    {
+        "id" : 5,
+        "name" : "Weeknd_5",
+        "url" : "Assign 3 JS/Q1/images/ The weeknd/StarBoy.jpg"
+    }
+]

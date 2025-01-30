@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <p>2. Fetch can be used to connect to external files, like JSON and return the
+        results of those data files into JavaScript code. The data needs time to load,
+        that is why promises are used to handle the data once it's ready and
+        returned from the endpoint. Using async and await in the function can set
+        up the promise to wait until a response is returned. Fetch can do the same
+        with the chaining of then promises to handle the data once its arrived. You
+        can also use promiseAll if there are multiple files that need to load data into
+        one object. Once all the data is ready then the file contents can be used in
+        the code and output on the page.
+        AJAX request example code exercise :
+        1. Create 3 page buttons to make requests. Set up an element on the
+        page to show the output of the results.
+        2. Using the first button on click, connect to a json file and return the
+        contents back using fetch. Output the results of the file onto the web
+        page.
+        3. The second button uses async on the main request function, and await
+        to move to the next function once the request completes. Output the
+        results of the file data into the web page.
+        4. Create an array of the paths to several JSON files, with the same
+        object structure in each file.
+        5. Once the third button is pressed, use Promise.all to make fetch
+        requests to each JSON file. Nest the map function within the
+        Promise.all request, so that the code can iterate through each JSON
+        file. Once all the requests are completed then output the content into
+        the web page from the JSON files.</p>
+
+        
+    <button id="btnFetch">Fetch with .then()</button>
+    <button id="btnAsync">Fetch with async/await</button>
+    <button id="btnPromiseAll">Fetch multiple files (Promise.all)</button>
+
+    <div id="output"><strong>Results will be displayed here...</strong></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <h1>JavaScript Assignment</h1>
+    <h3>Assignment 3</h3>
+    <p>
+      Question1 : 1. Using JSON data, load the json file when the DOM content is
+      loaded. Create <br />
+      the page slides dynamically with JavaScript code. Add interaction to
+      <br />
+      navigate between slides listening for clicks on the buttons. <br />
+      JSON slides navigate slides with JavaScript Exercise : <br />
+      1. Select the main slider element as a variable named slider in <br />
+      JavaScript. <br />
+      2. Create a function that gets invoked once the DOM content loads. Give
+      <br />
+      the function a name of adder() <br />
+      3. Within adder() create the slides, using the data from the JSON file
+      <br />
+      apply the text title, html content, and styling to the slide elements.
+      <br />
+      Add them to the page. <br />
+      4. If it's the first item in the data then add the class of active to the
+      first <br />
+      one only <br />
+      5. Add an event listener to the buttons, when clicked check if it contains
+      <br />
+      the next class, create a function named mover() to handle the result
+      <br />
+      6. Get the current element with the active class. Using traversing, get
+      <br />
+      the next sibling to the current element, if no next element exists then
+      <br />
+      select the first child of the parent slider element. <br />
+      7. Get the previous element, if it's null then select the last child of
+      the <br />
+      parent slider. <br />
+      8. Remove the active class for the current element, add the active class
+      <br />
+      to the new element either previous or next. <br />
+    </p>
+
+    <hr />
+
+    <h4>Page Slider</h4>
+
+    <!-- main slider element - isme elements add honge -->
+    <div id="slider">
+        
+    </div>
+
+    <button class="previous" id="previous" type="button" > prev </button>
+
+
+    <button class="next" id="next" type="button" > next </button>
+
+    <script src="script.js"></script>
+  </body>
+</html>
